@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="components">
+        <item>--- 선택 ---</item>
+        <item>TextView</item>
+        <item>EditText</item>
+        <item>Button</item>
+        <item>CheckBox</item>
+        <item>RadioButton</item>
+        <item>ToggleButton</item>
+        <item>ListView</item>
+    </string-array>
+
+    <string-array name="phone_maker">
+        <item>삼성</item>
+        <item>LG</item>
+        <item>샤오미</item>
+        <item>모토로라</item>
+        <item>애플</item>
+    </string-array>
+</resources>

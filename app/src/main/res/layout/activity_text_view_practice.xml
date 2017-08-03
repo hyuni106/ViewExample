@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kr.co.tjeit.viewexample.activity.TextViewPracticeActivity">
+
+    <!-- 1. 가로, 세로 모두 필요한만큼 사용하는 TEST라고 적힌 TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST"/>
+
+    <!-- 2. 가로는 부모의 크기, 세로는 필요한만큼 쓰는 TEST2 라고 적힌 -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEST2"/>
+
+    <!-- 3. TEST3 , 글씨 크기가 30 인 텍스트뷰 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST3"
+        android:textSize="30sp"/>
+
+    <!-- 4. 배경이 빨간색인 TEST4 텍스트뷰 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST4"
+        android:background="#FF0000"/>
+
+    <!-- 5. 왼쪽 외부여백이 20만큼 있는 TEST5 텍스트뷰 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST5"
+        android:layout_marginLeft="20dp"/>
+
+    <!-- 6. 배경은 파란색, 글씨 크기 20, TEST6 텍스트뷰 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000FF"
+        android:text="TEST6"
+        android:textSize="20sp"/>
+
+    <!-- 7. 구글 주소를 누르면 해당 사이트로 가는 텍스트뷰 www.google.com -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.google.com"
+        android:autoLink="web"/>
+    <!-- 8. 배경은 빨간색, 글씨는 흰색, 기울임 적용된 내부여백 4방향 10dp TEST8 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST8"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        android:padding="10dp"/>
+
+    <!-- 9. 장평이 90%인 검정 글씨 (#000000) 텍스트뷰 TEST9 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST9"
+        android:textScaleX="0.9"
+        android:textColor="#000000"/>
+
+    <!-- 10. 글씨 크기는 20, 4방향 외부여백 5dp, 4방향 내부여백 10dp, 배경 흰색, 글씨 색 검정-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST10"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"/>
+
+</LinearLayout>
+
+
